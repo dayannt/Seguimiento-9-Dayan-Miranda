@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="person-selector">
+        <button class="button person-selector-button active-person" id="Dayan-selector">Dayan</button>
+        <button class="button person-selector-button active-person" id="Sofia">Sofia</button>
+    </div>
+    <div class="chat-container">
+        <h2 class="chat-header">Dayan esta escribiendo...</h2>
+        <div class="chat-messages">
+            <div class="message pink-bg">
+                <div class="message-sender">Dayan</div>
+                <div class="message-text">Hola Sofia, como estas?</div>
+                <div class="message-timestamp">10:30 AM</div>
+            </div>
+            
+            <div class="message gray-bg">
+                <div class="message-sender">Sofia</div>
+                <div class="message-text">Bien, y tu? Como vas?</div>
+                <div class="message-timestamp">10:35 AM</div>
+            </div>
+        </div>
+
+        <form action="" class="chat-input-form">
+            <input type="text" class="chat-input" required placeholder="Escribe aqui, Dayan..." />
+            <button type="Enviar" class="button send-button">
+                Enviar
+            </button>
+        </form>
+        <button class="button clear-chat-button">Limpiar Chat</button>
+
+    </div>
+    <script src="./app.js"></script>
+
+</body>
+</html>
